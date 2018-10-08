@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+  <link rel="stylesheet" href="css/public.css">
+  <link rel="stylesheet" href="css/register.css">
+  <title></title>
+</head>
+
+<body>
+  <div id="wrap">
+    <script src="js/header.js" charset="utf-8"></script>
+    <div class="main minW">
+      <div class="main_cont pad">
+        <h1 class="tc">注册</h1>
+        <div class="registerBox tc pr">
+          <div><input type="text" name="uname" value="" placeholder="用户名">
+            <p class="unameErr Err">请输入4-10位，由字母开头的用户名</p>
+          </div>
+          <div><input type="password" name="password" value="" placeholder="密码">
+              <ul style="text-align:left" class="passwordErr Err">
+                <li>6~16位</li>
+              </ul>
+          </div>
+          <div><input type="password" name="repassword" value="" placeholder="再次输入密码">
+            <p class="repasswordErr Err">两次密码不一致，请重新输入</p>
+          </div>
+          <div><input type="text" name="phone" value="" placeholder="手机号">
+            <p class="phoneErr Err">请输入11位手机号</p>
+          </div>
+          <div class="pr emailBox"><input type="text" name="email" value="" placeholder="邮箱">
+            <p class="emailErr Err">请输入正确格式的邮箱</p>
+            <ul style="display:none" class="email-list pa">
+              <li><a href="javascript:void(0)" class="emailBQ" name="emailBQ"><span></span>@QQ.com</a></li>
+              <li><a href="javascript:void(0)" class="emailBQ" name="emailBQ"><span></span>@sina.com</a></li>
+              <li><a href="javascript:void(0)" class="emailBQ" name="emailBQ"><span></span>@163.com</a></li>
+              <li><a href="javascript:void(0)" class="emailBQ" name="emailBQ"><span></span>@126.com</a></li>
+              <li><a href="javascript:void(0)" class="emailBQ" name="emailBQ"><span></span>@gmail.com</a></li>
+              <li><a href="javascript:void(0)" class="emailBQ" name="emailBQ"><span></span>@firfox.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="yzmBox">
+          <a class="ib yzm pr"><span class="ib greenbg"></span><i class="yzm_text pr">请拖动滑块到右边</i><span class="ib pa kuai">&gt;&gt;</span></a>
+          <p style="text-align:left" class="yzmErr Err">请滑动滑块验证</p>
+        </div>
+        <div><button class="pr registerbtn btn on_btn tc">注册</button></div>
+        <div><a href="login.html" class="toOters">登录</a></div>
+      </div>
+    </div>
+    <script src="js/footer.js" charset="utf-8"></script>
+  </div>
+  <script src="js/tie.js" charset="utf-8"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.cookie.js" charset="utf-8"></script>
+  <script src="js/public.js" charset="utf-8"></script>
+  <script src="js/register.js" charset="utf-8"></script>
+</body>
+
+</html>

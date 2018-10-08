@@ -1,0 +1,171 @@
+#wrap {
+  background-color: #efefef;
+}
+#wrap .text_cont {
+  padding: 50px 0;
+  background-color: #efefef;
+}
+#wrap .text_cont .tit {
+  padding: 0 50px;
+  box-sizing: border-box;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  background-color: #34373d;
+  color: #fff;
+}
+#wrap .text_cont .tit li:first-child {
+  width: 500px;
+  text-align: left;
+}
+#wrap .text_cont .tit li {
+  width: 150px;
+}
+#wrap .text_cont .goodslist {
+  padding: 0 50px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+}
+#wrap .text_cont .goodslist .proBox {
+  border-bottom: 1px solid rgba(152, 149, 148, 0.4);
+}
+#wrap .text_cont .goodslist .proBox:last-child {
+  border-bottom: none;
+}
+#wrap .text_cont .goodslist li ul {
+  line-height: 130px;
+  height: 130px;
+}
+#wrap .text_cont .goodslist li ul li:first-child {
+  width: 500px;
+  text-align: left;
+}
+#wrap .text_cont .goodslist li ul li {
+  text-align: center;
+  height: 100%;
+  float: left;
+  width: 150px;
+}
+#wrap .text_cont .goodslist li ul li .uncheck {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 2px;
+  vertical-align: middle;
+  border: 1px solid #989594;
+  margin-right: 20px;
+}
+#wrap .text_cont .goodslist li ul li .check {
+  background: url(../img/product/check.png);
+  border: 1px solid #fff;
+}
+#wrap .text_cont .goodslist li ul li .dele {
+  width: 50px;
+}
+#wrap .text_cont .goodslist li ul li .dele:hover {
+  color: red;
+}
+#wrap .text_cont .goodslist li ul li p {
+  width: 85px;
+  border: 1px solid #000;
+  height: 25px;
+  position: relative;
+  top: 50%;
+  line-height: 25px;
+  transform: translateY(-50%);
+}
+#wrap .text_cont .goodslist li ul li p input {
+  vertical-align: top;
+  text-align: center;
+  width: 30px;
+  height: 25px;
+  line-height: 25px;
+}
+#wrap .text_cont .goodslist li ul li p span {
+  vertical-align: top;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 25px;
+  height: 25px;
+  padding: 0 9px;
+}
+#wrap .text_cont .goodslist li ul li a {
+  font-size: 14px;
+  color: #000;
+}
+#wrap .text_cont .goodslist li .bao {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 30px;
+}
+#wrap .text_cont .pay {
+  margin-top: 5px;
+  background-color: #fff;
+  height: 150px;
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+#wrap .text_cont .pay .checkPro {
+  text-align: left;
+}
+#wrap .text_cont .pay .checkPro .uncheck {
+  width: 19px;
+  height: 19px;
+  border-radius: 2px;
+  vertical-align: middle;
+  border: 1px solid #989594;
+  margin-right: 20px;
+}
+#wrap .text_cont .pay .checkPro .check {
+  background: url(../img/product/check.png);
+  border: 1px solid #fff;
+}
+#wrap .text_cont .pay .checkPro p {
+  padding: 5px 0;
+}
+#wrap .text_cont .pay .checkPro a {
+  color: #000000;
+  display: inline-block;
+  padding: 5px 0;
+}
+#wrap .text_cont .pay .checkPro a:hover {
+  color: red;
+}
+#wrap .text_cont .pay .checkPro .checkNum, #wrap .text_cont .pay .checkPro .allNum {
+  color: #2473e9;
+}
+#wrap .text_cont .pay div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#wrap .text_cont .pay h1 {
+  color: #db5d38;
+}
+#wrap .text_cont .pay p {
+  font-size: 14px;
+  color: #888;
+}
+#wrap .text_cont .pay .toBuy {
+  position: relative;
+  top: 1px;
+}
+#wrap .text_cont .pay button, #wrap .text_cont .pay .toBuy {
+  text-align: center;
+  margin-top: 10px;
+  width: 100px;
+  background-color: #c73d2a;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  height: 35px;
+  line-height: 35px;
+}
+
+/*# sourceMappingURL=shoppingCar.css.map */

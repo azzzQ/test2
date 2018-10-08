@@ -1,0 +1,186 @@
+@charset "UTF-8";
+body {
+  font-size: 12px;
+  font-family: '微软雅黑';
+}
+
+.pad {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+._span {
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.fz0 {
+  font-size: 0;
+}
+
+.minW {
+  min-width: 1200px;
+}
+
+.shadow {
+  -webkit-box-shadow: 2px 2px 20px #999999;
+  box-shadow: 2px 2px 20px #999999;
+}
+
+#bigBanner {
+  height: 658px;
+}
+#bigBanner div {
+  height: 158px;
+  background-color: #f1f1f1;
+}
+#bigBanner div .bblist {
+  margin: 0 auto;
+  height: 93px;
+  padding: 40px 0 25px 0;
+  background-color: #f1f1f1;
+}
+#bigBanner div .bblist li {
+  text-align: center;
+}
+#bigBanner div .bblist li a {
+  width: 102px;
+  color: #000;
+  transition: color .5s;
+}
+#bigBanner div .bblist li a .bb_icon {
+  height: 41px;
+  background-color: #cccccc;
+  border-radius: 50%;
+  width: 41px;
+  margin: 0 auto 30px auto;
+}
+#bigBanner div .bblist li a .bb_icon span {
+  height: 100%;
+  width: 100%;
+}
+#bigBanner div .bblist li a .bb_icon span:before {
+  height: 100%;
+  width: 100%;
+  transition: .5s;
+  content: '';
+  display: inline-block;
+}
+#bigBanner div .bblist li a .bb_text {
+  font-size: 14px;
+}
+#bigBanner div .bblist li a:hover {
+  color: #eb0028;
+  transition: .5s;
+}
+#bigBanner div .bblist li a:hover span:before {
+  opacity: 0;
+  transition: .5s;
+}
+#bigBanner .banner {
+  background: url(../img/detail/bigbg.jpg) no-repeat center center;
+  height: 500px;
+  width: 100%;
+}
+
+.i-phone {
+  background: url(../img/detail/bg.png) no-repeat 0 -411px;
+}
+.i-phone:before {
+  background: url(../img/detail/bg.png) no-repeat 0 -452px;
+}
+
+.i-handerphone {
+  background: url(../img/detail/bg.png) no-repeat 0 0px;
+}
+.i-handerphone:before {
+  background: url(../img/detail/bg.png) no-repeat 0 -41px;
+}
+
+.i-kemo {
+  background: url(../img/detail/bg.png) no-repeat 0 -83px;
+}
+.i-kemo:before {
+  background: url(../img/detail/bg.png) no-repeat 0 -124px;
+}
+
+.i-usb {
+  background: url(../img/detail/bg.png) no-repeat 0 -165px;
+}
+.i-usb:before {
+  background: url(../img/detail/bg.png) no-repeat 0 -206px;
+}
+
+.i-setall {
+  background: url(../img/detail/bg.png) no-repeat 0 -247px;
+}
+.i-setall:before {
+  background: url(../img/detail/bg.png) no-repeat 0 -288px;
+}
+
+.i-livehouse {
+  background: url(../img/detail/bg.png) no-repeat 0 -329px;
+}
+.i-livehouse:before {
+  background: url(../img/detail/bg.png) no-repeat 0 -370px;
+}
+
+#main .main_cont .main_top {
+  padding: 60px 0;
+}
+#main .main_cont .main_top .mTop-list {
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_cont .main_top .mTop-list li {
+  flex: 1 1 auto;
+}
+#main .main_b_bc {
+  background-color: #f2f2f2;
+}
+#main .main_b_bc .main_bottom {
+  padding-bottom: 59px;
+  background-color: #f2f2f2;
+}
+#main .main_b_bc .main_bottom div {
+  padding-top: 40px;
+}
+#main .main_b_bc .main_bottom div h1 {
+  font-weight: normal;
+}
+#main .main_b_bc .main_bottom div ul {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_b_bc .main_bottom div ul li {
+  width: 263px;
+}
+#main .main_b_bc .main_bottom div ul li a {
+  width: 100%;
+  height: 385px;
+  color: #000000;
+  background-color: #fff;
+  text-align: center;
+}
+#main .main_b_bc .main_bottom div ul li a img {
+  width: 60%;
+  padding-bottom: 48px;
+}
+#main .main_b_bc .main_bottom div ul li a p {
+  font-size: 16px;
+}
+#main .main_b_bc .main_bottom div ul li:hover {
+  transition: .3s;
+  -webkit-box-shadow: 2px 2px 20px #9f9f9f;
+  box-shadow: 2px 2px 20px #9f9f9f;
+  transform: translateY(-2px);
+}
+
+/*# sourceMappingURL=detail.css.map */

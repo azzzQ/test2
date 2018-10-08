@@ -1,0 +1,114 @@
+.content{
+  background-color: #efefef;
+  padding: 50px 50px 0 30px;
+  display: flex;
+  box-sizing: border-box;
+
+  .cont-left,.cont-right{
+    flex: 1 1 auto;
+    // width: 50%;
+  }
+  .cont-left{
+    width: 60%;
+    img{
+      width: 100%;
+    }
+    .shopPicList{
+      top: 50%;
+      transform: translateY(-50%);
+      li{
+        a{
+          width: 70px;
+          height: 70px;
+          background-color: #fff;
+          opacity: 0.3;
+        }
+        .look{
+          opacity: 1;
+        }
+      }
+    }
+    .bigPic{
+      .iconfont{
+        z-index: 10;
+        // cursor: pointer;
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        top: 50%;
+        position: absolute;
+        font-size: 35px;
+        color: #b82121;
+        transform: translateY(-50%);
+      }
+      .leftbtn{
+        left: 100px;
+      }
+      .rightbtn{
+        right: 30px;
+      }
+      img{
+        position: relative;
+        left: 70px;
+        width: 90%;
+      }
+    }
+  }
+  .cont-right{
+    width: 40%;
+    h1{
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 60px;
+    }
+    .middle{
+      top: 50%;
+      transform: translateY(-50%);
+      .info{
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(149, 149, 149, 0.5);
+      }
+    }
+    .count{
+      margin-top: 20px;
+      width: 300px;
+      font-size: 16px;
+      border: 1px solid #888;
+      background-color: #fff;
+      text-align: center;
+      input,span{
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+      }
+      span{
+        cursor: pointer;
+        width: 50px;
+      }
+    }
+    button{
+      background-color: #eb0028;
+      margin-top: 20px;
+      z-index: 10;
+      width: 300px;
+      height: 50px;
+      font-size: 14px;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+.on_btn:before {
+  top: 0;
+  height: 50px;
+}
+
+.on_btn:hover:before {
+  width: calc(300px);
+  background-color: #b8001f;
+}

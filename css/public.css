@@ -1,0 +1,422 @@
+body {
+  font-size: 12px;
+  font-family: '微软雅黑';
+}
+
+.pad {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+._span {
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.coff {
+  color: #fff;
+}
+
+.fz0 {
+  font-size: 0;
+}
+
+.minW {
+  min-width: 1200px;
+}
+
+
+
+.on_btn:before {
+  position: absolute;
+  content: '';
+  width: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.on_btn:hover::before {
+  transition: .2s;
+}
+
+#wrap {
+  height: auto;
+}
+.nav{
+  position: relative;
+  z-index: 5;
+  background-color: #fff;
+}
+#nav_content {
+  height: 60px;
+  background-color:#fff;
+
+}
+
+#logo a {
+  line-height: 60px;
+  font-size: 30px;
+  color: #eb0028;
+  margin-right: 238px;
+  margin-left: 17px;
+}
+
+#nav_list li:hover a {
+  border-bottom: 2px solid #eb0028;
+  color: #eb0028;
+  transition: 1s;
+}
+
+#nav_list a {
+  border-bottom: 2px solid #fff;
+  line-height: 58px;
+  height: 58px;
+  padding: 0 34px;
+  font-size: 14px;
+  color: #a6a8a6;
+}
+
+#login_box .login_change {
+  padding: 0 20px;
+  color: #828282;
+  font-size: 20px;
+  line-height: 58px;
+  border-bottom: 2px solid #fff;
+}
+
+#login_box .login_change:hover {
+  color: #000;
+  transition: 0.5s;
+}
+
+#login_btn, #buycar {
+  width: 58px;
+}
+
+#login_box .icon-gouwudai_o:hover, #login_box .icon-yonghutouxiang:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #000;
+}
+
+#login_btn:hover .loginSele, #buycar:hover .buycar {
+  visibility: visible;
+}
+
+.loginSele, .buycar {
+  background-color: #fff;
+  z-index: 10;
+  visibility: hidden;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.loginSele {
+  left: -200px;
+  width: 280px;
+  padding: 14px 20px 0 20px;
+}
+
+.loginSele ul li a {
+  color: #828282;
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.loginSele ul li:hover a {
+  color: #000;
+  transition: .2s;
+}
+
+.loginSele ul li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #828282;
+}
+
+.loginSele ul .loginbtn {
+  height: 80px;
+  line-height: 80px;
+  border-bottom: none;
+}
+
+.loginSele ul .loginbtn:hover a {
+  text-decoration: underline;
+}
+
+#buycar {
+  width: 58px;
+}
+
+#buycar .buycar {
+  width: 300px;
+  left: -120px;
+  padding: 20px;
+}
+
+.buycarbtn {
+  background-color: #eb0028;
+  width: 280px;
+  height: 35px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 35px;
+  z-index: 10;
+}
+
+#buycar .on_btn:before {
+  height: 35px;
+}
+
+#buycar .on_btn:hover:before {
+  width: calc(280px);
+  background-color: #b8001f;
+}
+
+.searchBox {
+  height: 50px;
+  padding: 5px 0;
+}
+
+.searchBox .iconfont {
+  font-size: 28px;
+  position: relative;
+  top: 6px;
+  padding-right: 5px;
+}
+
+.searchBox input {
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 50px;
+  width: 500px;
+  height: 50px;
+}
+
+.search_list {
+  z-index: 5;
+  top: 60px;
+  border-top: 1px solid #d2d2d2;
+  padding: 5px 0;
+  font-size: 14px;
+  background-color: #fff;
+  width: 566px;
+}
+
+.search_list li {
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+
+.search_list li:hover {
+  background-color: rgb(236, 236, 236)
+}
+
+.search_list li a {
+  height: 40px;
+  line-height: 40px;
+  color: #888;
+}
+
+#help, #help_content {
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 1px solid #dadada;
+}
+
+#help a .iconfont {
+  color: #7db93f;
+  font-size: 52px;
+  padding-bottom: 36px;
+  padding-top: 48px;
+}
+
+.help_list {
+  display: flex;
+}
+
+.help_list li {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.help_list li a p {
+  color: #000;
+  font-size: 15px;
+  padding-bottom: 34px;
+}
+
+#aboutUs {
+  background-color: #fcfcfc;
+}
+
+#au_content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 54px;
+}
+
+.au_list {
+  display: flex;
+  flex: 6;
+}
+
+.connectUs {
+  flex: 2;
+}
+
+.au_list li {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.au_list_list .top {
+  padding: 32px 0;
+  font-size: 14px;
+}
+
+.au_list_list li {
+  padding-top: 18px;
+}
+
+.au_list_list li a {
+  color: #8a8c8a;
+  font-size: 15px;
+}
+
+.au_list_list li a:hover {
+  color: #000;
+  transition: 0.5s;
+}
+
+.phone {
+  color: black;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.connectUs .phone .iconfont {
+  display: inline-block;
+  padding-right: 8px;
+  /* font-size: 16px; */
+}
+
+.connectUs .sever {
+  height: 48px;
+  width: 238px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 2px;
+  line-height: 48px;
+  color: #4d564a;
+  z-index: 10;
+  border: 1px solid #101920;
+}
+
+.connectUs .on_btn:hover {
+  color: #fff;
+}
+
+.connectUs .on_btn:before {
+  height: 48px;
+}
+
+.connectUs .on_btn:hover::before {
+  width: calc(238px);
+  background-color: #000;
+}
+
+.icon-weixin {
+  color: #3ab034;
+}
+
+.icon-weibo-copy {
+  color: #e6162d;
+}
+
+.time {
+  padding: 16px 0;
+  font-size: 14px;
+}
+
+.icon-weixin, .icon-weibo-copy {
+  font-size: 22px;
+  padding: 0 10px;
+}
+
+#copy {
+  background-color: #f9f9f9;
+}
+
+.copy_content {
+  height: 120px;
+  line-height: 120px;
+  border-bottom: 1px solid #656865;
+}
+
+.copy_copy {
+  padding-top: 22px;
+  padding-bottom: 32px;
+}
+
+.copy_content a {
+  font-size: 15px;
+  color: #656865;
+}
+
+.language .icon-zhongguo {
+  color: red;
+}
+
+.copy_content p span {
+  border-right: 1px solid #656865;
+  width: 1px;
+  height: 12px;
+  margin: 0 24px;
+}
+
+.copy_left a {
+  color: #4c5557;
+}
+
+.copy_left p:first-child {
+  color: #aeb6b2;
+}
+
+
+.smallBuyCar img {
+  width: 79px;
+  height: 79px;
+  border: 1px solid rgba(177, 173, 172, 0.41);
+}
+.smallBuyCar a{
+  font-size: 14px;
+  color: #888;
+}
+.smallBuyCar li{
+  border-bottom: 1px solid rgba(177, 173, 172, 0.41);
+  padding:10px 0;
+  text-align: left;
+}
+.smallBuyCar li div{
+  padding-left: 10px;
+  line-height: 28px;
+  width:180px;
+}
+.smallBuyCar .bc-nopro{
+  border:none;
+  text-align: center;
+}
+.smallBuyCar .sc-bao{
+  font-size: 12px;
+  line-height: 20px;
+  font-style: normal;
+}

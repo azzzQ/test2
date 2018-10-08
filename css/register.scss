@@ -1,0 +1,161 @@
+.main {
+  background-color: #f9f9f9;
+
+  .main_cont {
+    padding: 50px 0 50px;
+    text-align: center;
+    .yzmBox{
+      margin: 20px auto;
+      width: 308px;
+    }
+    .registerBox div , .loginBox div {
+      margin: 12px auto;
+      width: 308px;
+
+
+      p {
+        text-align: left;
+      }
+    }
+
+    h1 {
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .yzm,
+    input {
+      width: 276px;
+      height: 22px;
+      padding: 8px 16px;
+    }
+
+    input {
+      border: 1px solid #b9b9b9;
+      transition: 0.3s;
+      font-size: 14px;
+      border-radius: 5px;
+
+      &:hover {
+        border: 1px solid #606060;
+        transition: 0.3s;
+      }
+
+      &:focus {
+        border: 1px solid #606060;
+      }
+    }
+
+    .inpErr {
+      border: 1px solid rgb(209, 32, 32);
+
+      &:hover {
+        border: 1px solid rgb(209, 32, 32);
+      }
+
+      &:focus {
+        border: 1px solid rgb(209, 32, 32);
+      }
+    }
+
+    .on_btn:before {
+      height: 38px;
+    }
+
+    .on_btn:hover:before {
+      width: calc(308px);
+      background-color: #b8001f;
+    }
+    .Err {
+      padding-top: 5px;
+      padding-left: 5px;
+      color: rgb(209, 32, 32);
+      display: none;
+    }
+  }
+}
+
+.tongguo {
+  color: rgb(79, 200, 106);
+}
+
+.greenbg {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 0;
+  height: 100%;
+  background-color: rgb(58, 199, 35);
+}
+
+.kuai {
+  height: 38px;
+  width: 45px;
+  background-color: #f9f9f9;
+  border: 1px solid #808080;
+  line-height: 38px;
+  top: 0;
+  z-index: 10;
+  cursor: move;
+  left: 0;
+}
+
+.btn {
+  z-index: 10;
+  width: 308px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  background-color: #eb0028;
+}
+.toOters{
+  color: rgb(48, 170, 230);
+  font-size: 14px;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.email-list{
+  background-color: #fff;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 298px;
+  padding: 10px 5px;
+  a{
+    text-align: left;
+    width: 278px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    display: inline-block;
+      color: #000;
+
+    &:hover{
+      background-color: rgb(194, 194, 194);
+    }
+  }
+}
+.yzm {
+  color: #000000;
+  background-color: #ccc;
+  text-align: center;
+  i {
+    font-style: normal;
+    line-height: 22px;
+    z-index: 2;
+  }
+}
+b{
+  padding: 0 5px;
+}
+.flagView{
+  transition: .3s;
+  -webkit-box-shadow:0px 0px 8px rgb(190, 29, 29);
+}

@@ -1,0 +1,109 @@
+.content {
+  background-color: #efefef;
+  padding: 50px 50px 0 30px;
+  display: flex;
+  box-sizing: border-box;
+}
+.content .cont-left, .content .cont-right {
+  flex: 1 1 auto;
+}
+.content .cont-left {
+  width: 60%;
+}
+.content .cont-left img {
+  width: 100%;
+}
+.content .cont-left .shopPicList {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.content .cont-left .shopPicList li a {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  opacity: 0.3;
+}
+.content .cont-left .shopPicList li .look {
+  opacity: 1;
+}
+.content .cont-left .bigPic .iconfont {
+  z-index: 10;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  top: 50%;
+  position: absolute;
+  font-size: 35px;
+  color: #b82121;
+  transform: translateY(-50%);
+}
+.content .cont-left .bigPic .leftbtn {
+  left: 100px;
+}
+.content .cont-left .bigPic .rightbtn {
+  right: 30px;
+}
+.content .cont-left .bigPic img {
+  position: relative;
+  left: 70px;
+  width: 90%;
+}
+.content .cont-right {
+  width: 40%;
+}
+.content .cont-right h1 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 60px;
+}
+.content .cont-right .middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.content .cont-right .middle .info {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(149, 149, 149, 0.5);
+}
+.content .cont-right .count {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #888;
+  background-color: #fff;
+  text-align: center;
+}
+.content .cont-right .count input, .content .cont-right .count span {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.content .cont-right .count span {
+  cursor: pointer;
+  width: 50px;
+}
+.content .cont-right button {
+  background-color: #eb0028;
+  margin-top: 20px;
+  z-index: 10;
+  width: 300px;
+  height: 50px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.on_btn:before {
+  top: 0;
+  height: 50px;
+}
+
+.on_btn:hover:before {
+  width: calc(300px);
+  background-color: #b8001f;
+}
+
+/*# sourceMappingURL=productAll.css.map */
